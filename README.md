@@ -51,23 +51,23 @@ git push -f origin [branch that was rewritten]
 
 2) Roll back time
 
-A bad change was just released on the "A" branch at tag 1.4.1.  Modify is such that branch A now points to the 1.4.2. tag.
+A bad change was just released on the "scalping" branch at tag 1.4.1.  Modify is such that branch A now points to the 1.4.2. tag.
 
 3) Merging
 
-Changes from a peer made on branch "B" need to be merged into your branch "C".  Make sure both of your content exists in branch "C".
+Changes from a peer made on branch "oversells" need to be merged into your branch "decentralized".  Make sure both of your content exists in branch "decentralized".
 
 4) Merging two branches that both added the same file.
 
-Two users working on branches "D" and "E" need to be merged, but both added the same file.  Merge branch "D" into branch "E" and keep just the content in branch "E" for the conflicted file.
+Two users working on branches "recriminated" and "angered" need to be merged, but both added the same file.  Merge branch "recriminated" into branch "angered" and keep just the content in branch "angered" for the conflicted file.
 
 5) Merge two branches that both edit the same file.
 
-Two users during the course of their work in branches "F" and "G" have both edited an existing file (along with other changes).  Merge branch "F" into branch "G" and for any conflicts include the content from both branches.
+Two users during the course of their work in branches "perkiness" and "sterilizer" have both edited an existing file (along with other changes).  Merge branch "perkiness" into branch "sterilizer" and for any conflicts include the content from both branches.
 
 6) Undo a commit
 
-Branch "H" has a line of commits in them.  The changes made in the commit with the message "Undo this commit" need to be undone.  Use `git revert` to undo the changes of that one commit, and tag the fixed commit as 1.4.3.
+Branch "picnickers" has a line of commits in them.  The changes made in the commit with the message "Undo this commit" need to be undone.  Use `git revert` to undo the changes of that one commit, and tag the fixed commit as 1.4.3.
 
 Note: The same tag can only be added in one location since it's a pointer to 1 specific snapshot of your code.  If you made a mistake, you can delete a tag with
 
@@ -85,5 +85,3 @@ git push --all my-repo
 # Push all your tags with
 git push --tags my-repo
 ```
-
-
