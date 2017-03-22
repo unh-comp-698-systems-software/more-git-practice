@@ -8,3 +8,5 @@ loomed
 shortlist
 antlers
 milquetoast
+tooted
+smokiest
