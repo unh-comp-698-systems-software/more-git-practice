@@ -51,7 +51,7 @@ git push -f origin [branch that was rewritten]
 
 2) Roll back time
 
-A bad change was just released on the "scalping" branch at tag 1.4.2.  Modify the "scalping" branch so that in now points to the 1.4.2. tag.
+A bad change was just released on the "scalping" branch at tag 1.4.2.  Modify the "scalping" branch so that in now points to the 1.4.1. tag.
 
 3) Merging
 
